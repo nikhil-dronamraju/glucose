@@ -4,11 +4,69 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".GlucoseFragment">
-
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
+        android:paddingLeft="16dp"
         android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Glucose Monitor"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/save_date"
+            android:text="Place date here:"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/input_fasting"
+            android:inputType="number"
+            android:hint="Fasting:"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/input_breakfast"
+            android:inputType="number"
+            android:hint="Breakfast:"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/input_lunch"
+            android:inputType="number"
+            android:hint="Lunch:"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/input_dinner"
+            android:inputType="number"
+            android:hint="Dinner:"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/clear"
+                android:text="Clear"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/history"
+                android:text="History"/>
+
+        </LinearLayout>
 
         <TextView
             android:layout_width="match_parent"
@@ -41,7 +99,5 @@
             android:layout_height="wrap_content"
             android:id="@+id/view_isnormal_fragment"/>
 
-
     </LinearLayout>
-
 </FrameLayout>
