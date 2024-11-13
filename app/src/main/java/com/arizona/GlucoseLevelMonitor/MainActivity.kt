@@ -30,5 +30,6 @@ class MainActivity : AppCompatActivity() {
             binding.inputLunch.setText("")
             binding.inputDinner.setText("")
         }
+
     }
 }
