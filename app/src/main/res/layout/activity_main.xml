@@ -29,25 +29,29 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/input_fasting"
-            android:text="input fasting here"/>
+            android:inputType="number"
+            android:hint="Fasting:"/>
 
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/input_breakfast"
-            android:text="input breakfast here"/>
+            android:inputType="number"
+            android:hint="Breakfast:"/>
 
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/input_lunch"
-            android:text="input lunch here"/>
+            android:inputType="number"
+            android:hint="Lunch:"/>
 
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/input_dinner"
-            android:text="input dinner here"/>
+            android:inputType="number"
+            android:hint="Dinner:"/>
 
         <LinearLayout
             android:layout_width="match_parent"
