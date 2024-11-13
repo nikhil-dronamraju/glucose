@@ -7,11 +7,17 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+<!--    <androidx.fragment.app.FragmentContainerView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:id="@+id/glucose_fragment_container"-->
+<!--        android:name="com.arizona.GlucoseLevelMonitor.GlucoseFragment"-->
+<!--        tools:ignore="MissingConstraints" />-->
+
     <androidx.fragment.app.FragmentContainerView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/glucose_fragment_container"
-        android:name="com.arizona.GlucoseLevelMonitor.GlucoseFragment"
-        tools:ignore="MissingConstraints" />
+        android:id="@+id/glucose_recycler_fragment_container"
+        android:name="com.arizona.GlucoseLevelMonitor.GlucoseRecyclerView"
+        android:layout_width="match_parent" android:layout_height="match_parent"
+        tools:context=".MainActivity" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
