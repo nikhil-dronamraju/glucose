@@ -9,6 +9,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.arizona.GlucoseLevelMonitor.databinding.ActivityMainBinding
+import com.arizona.GlucoseLevelMonitor.databinding.FragmentGlucoseBinding
 import java.util.*
 
 class MainActivity : AppCompatActivity() {
@@ -30,6 +31,5 @@ class MainActivity : AppCompatActivity() {
             binding.inputLunch.setText("")
             binding.inputDinner.setText("")
         }
-
     }
 }
